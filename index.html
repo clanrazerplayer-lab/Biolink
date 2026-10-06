@@ -93,6 +93,21 @@
         .link-tiktok:hover { background-color: #000000; border-color: #69C9D0; }
         .link-livepix:hover { background-color: #00ff41; color: black; border-color: #00ff41; }
         .link-itch:hover { background-color: #fa5c5c; border-color: #fa5c5c; }
+        
+        /* NOVO ESTILO: Botão VERIFICADO */
+        .link-verified:hover { 
+            background: linear-gradient(135deg, #1DA1F2, #0d8bd9); 
+            border-color: #1DA1F2; 
+            box-shadow: 0 0 20px rgba(29, 161, 242, 0.5);
+        }
+        
+        .link-verified i {
+            color: #1DA1F2;
+        }
+        
+        .link-verified:hover i {
+            color: white;
+        }
 
     </style>
 </head>
@@ -106,25 +121,29 @@
         <h1>@crossrazer</h1>
 
         <!-- Links das Redes Sociais -->
-        <a href="https://www.youtube.com/@crossrazerYT" class="link link-youtube" target="_blank">
+        <a href="https://www.youtube.com/@crossrazerfps" class="link link-youtube" target="_blank" aria-label="YouTube">
             <i class="fa-brands fa-youtube"></i> YouTube
         </a>
 
-        <a href="https://discord.gg/udJSFzuQf4" class="link link-discord" target="_blank">
+        <a href="https://discord.gg/udJSFzuQf4" class="link link-discord" target="_blank" aria-label="Discord">
             <i class="fa-brands fa-discord"></i> Discord
         </a>
 
-        <a href="https://www.tiktok.com/@crossrazerttk" class="link link-tiktok" target="_blank">
+        <a href="https://www.tiktok.com/@crossrazerpvp" class="link link-tiktok" target="_blank" aria-label="TikTok">
             <i class="fa-brands fa-tiktok"></i> TikTok
         </a>
 
-        <a href="https://livepix.gg/crossrazer" class="link link-livepix" target="_blank">
+        <!-- NOVO BOTÃO VERIFICADO com link correto -->
+        <a href="https://www.maltastudiogames.com.br/verificado/" class="link link-verified" target="_blank" aria-label="Verificado">
+            <i class="fa-solid fa-shield-halved"></i> VERIFICADO
+        </a>
+
+        <a href="https://livepix.gg/crossrazer" class="link link-livepix" target="_blank" aria-label="Live Pix">
             <i class="fa-solid fa-hand-holding-dollar"></i> Live-Pix
         </a>
 
-        <!-- Novo Botão ENFYNYTY SANDBOX BAIXA AQUI -->
-        <a href="https://www.maltastudiogames.com.br/m/download-enfynyty/" class="link link-itch" target="_blank">
-            <i class="fa-solid fa-gamepad"></i> Enfynyty (Itch.io)
+        <a href="https://www.maltastudiogames.com.br/m/download-enfynyty/" class="link link-itch" target="_blank" aria-label="Baixar Enfynyty">
+            <i class="fa-solid fa-gamepad"></i> Enfynyty (DOWNLOAD)
         </a>
     </div>
 
